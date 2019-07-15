@@ -10,6 +10,9 @@ ro.cmc.version=2.0
 ### CAMERA
 ro.qq.camera.sensor=3
 
+### CHARGER
+ro.charger.enable_suspend=true
+
 ### KEYSTORE
 ro.security.keystore.keytype=sak,gak
 
