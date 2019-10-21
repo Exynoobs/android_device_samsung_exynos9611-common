@@ -155,6 +155,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.samsung
 
+### TOUCH HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.samsung
+
 ### USB TRUST HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
