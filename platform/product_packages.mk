@@ -163,6 +163,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.0-impl
 
+### TETHERING
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 ### THERMAL
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.samsung
