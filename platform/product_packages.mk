@@ -151,6 +151,10 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.2-impl \
     android.hardware.soundtrigger@2.0-service
 
+### THERMAL
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.samsung
+
 ### USB TRUST HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
