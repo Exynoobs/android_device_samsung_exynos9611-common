@@ -52,6 +52,10 @@
 /sys/devices/platform/11980000.contexthub(/.*)                u:object_r:sysfs_iio:s0
 /sys/devices/platform/11c30000.adc(/.*)                       u:object_r:sysfs_iio:s0
 
+# GPS
+/sys/devices/soc0/machine                                     u:object_r:sysfs_sec_gps:s0
+/sys/devices/soc0/revision                                    u:object_r:sysfs_sec_gps:s0
+
 ### VENDOR
 /(vendor|system/vendor)/bin/argosd           u:object_r:argosd_exec:s0
 /(vendor|system/vendor)/bin/wlbtd            u:object_r:wlbtd_exec:s0
