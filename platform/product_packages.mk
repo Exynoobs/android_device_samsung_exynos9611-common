@@ -143,8 +143,8 @@ PRODUCT_PACKAGES += \
     libshim_sensorndkbridge
 
 ## SOUNDTRIGGER
-PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.0-impl
+#PRODUCT_PACKAGES += \
+#    android.hardware.soundtrigger@2.0-impl
 
 ### TETHERING
 PRODUCT_PACKAGES += \
