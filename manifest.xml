@@ -232,6 +232,7 @@
         <name>android.hardware.tetheroffload.control</name>
         <transport>hwbinder</transport>
     </hal>
+    <hal format="hidl">
         <name>com.dsi.ant</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
