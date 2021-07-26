@@ -13,15 +13,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-COMMON_PATH := device/samsung/gta4xl-common
+COMMON_PATH := device/samsung/exynos9611-common
 
 BUILD_BROKEN_DUP_RULES := true
 
 ## Include path
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
-
-## Inherit proprietary vendor configuartion
-include vendor/samsung/gta4xl-common/BoardConfigVendor.mk
 
 ## Architecture
 TARGET_ARCH := arm64
@@ -61,7 +58,7 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
 ## Display
-TARGET_SCREEN_DENSITY := 240
+TARGET_SCREEN_DENSITY := 420
 
 ## Dynamic Partitions
 BOARD_SUPER_PARTITION_SIZE := 6585057280
@@ -103,7 +100,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/samsung/gta4xl
+TARGET_KERNEL_SOURCE := kernel/samsung/exynos9611
 
 ## Keymaster
 TARGET_KEYMASTER_VARIANT := samsung

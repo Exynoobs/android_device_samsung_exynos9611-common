@@ -14,12 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/samsung/gta4xl-common
-
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/gta4xl-common/gta4xl-common-vendor.mk)
-
-PRODUCT_CHARACTERISTICS := tablet
+COMMON_PATH := device/samsung/exynos9611-common
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -233,6 +228,10 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.typec
+
+### VIBRATOR
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.3-service.samsung
 
 # WiFi
 PRODUCT_PACKAGES += \
